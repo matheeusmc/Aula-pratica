@@ -1,0 +1,15 @@
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #34baab;
+    padding: 15px;
+}
+
+header img {
+    width: 100px;
+}
+
+.section-1 {
+    background-color: #34baab;
+}
