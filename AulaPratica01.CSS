@@ -1,15 +1,100 @@
-div{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #34baab;
+header {
     padding: 15px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content:space-around;
 }
 
 header img {
     width: 100px;
 }
 
-.section-1 {
+
+
+
+
+.section-01 {
     background-color: #34baab;
+    background-image: url(Imagens/banana-flower-3173137_640.jpg);
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+.section-02{
+    background-color: #0a4e46;
+    background-color: #0a4e46;
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.section-02 img{
+    width: 300px;
+    height: auto;
+}
+
+
+
+
+.section-03 {
+    background-image: url(Imagens/banana-flower-3173137_640.jpg);
+    padding: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+   
+}
+
+.section-02 h2{
+    color: burlywood;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.section-02 p{
+    color: aqua;
+    font-size: 15px;
+    margin: 25px;
+}
+
+.section-03 p{
+    color: rgb(111, 0, 139);
+    font-size: 25px;
+    margin: 25px;
+    font-weight: 900;
+}
+
+.section-03 h2{
+    margin: 20px;
+}
+
+.section-01 button{
+width: 150px;
+height: 40px;
+background-color:rgba(255, 255, 255, 0);
+border-radius: 8px;
+}
+
+
+footer {
+    padding: 15px;
+    background-color: black;
+
 }
